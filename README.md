@@ -8,11 +8,17 @@
 
 ### This build will have the following:
 
-👉 REDUX (Data management within React)
-👉 FIREBASE FIRESTORE (realtime database)
-👉 FIREBASE AUTHENTICATION (Login)
-👉 FIREBASE HOSTING (How to deploy)
-👉 MATERIAL UI (Design)
+> <br>
+> 👉 REDUX (Data management within React)
+> <br>
+> 👉 FIREBASE FIRESTORE (realtime database)
+> <br>
+> 👉 FIREBASE AUTHENTICATION (Login)
+> <br>
+> 👉 FIREBASE HOSTING (How to deploy)
+> <br>
+> 👉 MATERIAL UI (Design)
+> <br>
 
 - MORE!
 
