@@ -88,6 +88,5 @@
   color: black;
 }
 .sidebar__hash {
-  margin-right: 10px;
-  margin-left: 5px;
+  margin: 0 10px 0 5px;
 }

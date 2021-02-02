@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### About the Project
 
-## Available Scripts
+> The <b>LinkedIn-clone</b> web application presents a custom LinkedIn-clone.
+> <br>
+> The APP is created with the latest industry standards using React.js and Redux Toolkit
+> <br>
+> Firebase is used for the backend <br> > <br>
 
-In the project directory, you can run:
+### This build will have the following:
 
-### `yarn start`
+👉 REDUX (Data management within React)
+👉 FIREBASE FIRESTORE (realtime database)
+👉 FIREBASE AUTHENTICATION (Login)
+👉 FIREBASE HOSTING (How to deploy)
+👉 MATERIAL UI (Design)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- MORE!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## App functionality
 
-### `yarn test`
+- Visitors can register using Full name, image url, email, and password.
+- Logged in users can can view other peoples posts and can add their own post in the feed.
+- Users can click on avatar on the navbar to sign out.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+    <img src="https://github.com/fjamik/lnkdn/blob/main/Screen%20Shot%202021-02-02%20at%2012.19.32%20PM.png?raw=true" alt="project-image" >
+</p>
 
-### `yarn build`
+## Live Link (Firebase)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Project live link](https://linkedin-f1a41.web.app/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**To get this project set up on your local machine, follow these simple steps:**
 
-### `yarn eject`
+**Step 1**<br>
+Navigate through the local folder where you want to clone the repository and run<br>
+`git clone https://github.com/fjamik/lnkdn.git`. It will clone the repo to your local folder.<br>
+**Step 2**<br>
+Run `cd =>(to the folder you created) `<br>
+**Step 3**<br>
+Run `yarn install` to install the yarn packages from the `package.json` file.<br>
+**Step 4**<br>
+Run `yarn start` to start the webpack server, you can now navigate to `http://localhost:3000` to view the app. The server refreshes the app every time you make a change to a file used by it.<br>
+**Step 5**<br>
+Most important, enjoy the app!<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Tests
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open Terminal
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Install dependencies (only if you did not install them previously):
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   `yarn install`
 
-## Learn More
+3. Run the tests with the command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+   `yarn test`

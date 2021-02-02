@@ -1,6 +1,8 @@
 import firebase from 'firebase'
 
-const firebaseConfig = {}
+const firebaseConfig = {
+  Your config Key here
+}
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 const db = firebaseApp.firestore()
