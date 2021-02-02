@@ -29,7 +29,7 @@
 - Users can click on avatar on the navbar to sign out.
 
 <p align="center">
-    <img src="https://github.com/fjamik/lnkdn/blob/main/Screen%20Shot%202021-02-02%20at%2012.19.32%20PM.png?raw=true" alt="project-image" >
+    <img src="https://github.com/fjamik/lnkdn/blob/main/public/Screen%20Shot%202021-02-02%20at%2012.19.32%20PM.png?raw=true" alt="project-image" >
 </p>
 
 ## Live Link (Firebase)
